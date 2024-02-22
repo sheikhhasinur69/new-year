@@ -4,7 +4,9 @@
     box-sizing: border-box;
     font-family: sans-serif;
 }
-
+ p{
+    color:darkgray;
+ }
 .banner {
  background-image: url(resources/Banner\ Image.png);
  height: 100vh;
@@ -113,6 +115,36 @@
     text-transform: uppercase;
     font-weight: bold;
     cursor: pointer;
+}
+
+/* comming soon section */
+.comming-soon-section{
+    height: 100vh;
+    display: flex;
+    gap: 24px;
+    align-items: center;
+    justify-content: space-between;
+   margin-left: 45px;
+   margin-right: 45px;
+}
+.best-offer{
+    width: 393px;
+}
+.comming-soon-title{
+    font-size: 48px;
+    margin-top: 16px;
+    margin-bottom: 22px;
+}
+.comming-soon-sub-title{
+    font-size: 24px;
+    color: #FF0000;
+}
+.year2024{
+    width: 276px;
+}
+.year2024 p{
+    margin-top: 16px;
+    margin-bottom: 43px;
 }
 /* portfolio section */
 .portfolio-section{
